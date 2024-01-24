@@ -1,0 +1,30 @@
+Ejercicio 18-10-23
+
+    Con el ejercicio de adivinanza, imprimir el tiempo que
+    he tardado en acertar el número. Expresarlo en mm:ss    
+
+Ejercicio 25-10-23
+
+    Hay un fichero (lo crearemos) students.txt con los campos:
+        Name | Surname | ID | dd/mm/yyyy
+    
+    Hay un fichero introdata.py (lo creamos) => crear para que introduzca la información => 
+        NewStudent:
+            Name: XXX
+            Surname: aaa
+            ID: q2312
+            BirthDay(dd/mm/yyyy):23/25/1652
+        Add a new one? (Y/N) => que pregunte si quiero añadir otro nuevo. Si N que se cierre
+        Cada vez que se cree NewStudent, deberá añadirlo al archivo students.txt
+        Opcional: que si introduzco el ID y ya existe, me diga "Ya existe un alumnado con ese ID".
+    
+    Hay fichero query.py
+        Al introducir el ID deberá devolverme:
+            Name, Surname, Age (la edad es la resta entre la fecha de hoy y la fecha de nacimiento)
+        Que pregunte :Another query? (Y/N)
+
+    Hay fichero access.log
+        Cada vez que se realice alguna acción que recoja la información dd/mm/yy hh:mm:ss si se ha hecho una query o se ha añadido info
+
+Ejercicio 15-11-23
+    Hacer el ejercicio de estudiantes pero usando la base de datos de mongodb

@@ -1,0 +1,4 @@
+def funcion():
+    True
+    False
+

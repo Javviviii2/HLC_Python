@@ -1,0 +1,38 @@
+-- Hacer una matríz
+   a   b   c
+1
+2
+3
+
+--- 2 jugadores => que vaya preguntando "jugador 1 introduzca su casilla"
+-- Hacer la matríz con O y X
+
+Diseñaremos un tres en raya, para ello haremos uso de las siguientes funciones:
+
+1:
+    # La función acepta un parámetro con el estado actual del tablero y lo muestra en la consola.
+
+2:
+    # La función acepta el estado actual del tablero y pregunta al usuario acerca de su movimiento
+    # verifica la entrada y actualiza el tablero acorde a la decisión del usuario.
+
+3:
+    # La función examina el tablero y construye una lista de todos los cuadros vacíos.
+    # La lista esta compuesta por tuplas, cada tupla es un par de números que indican la fila y columna.
+
+4:
+    # La función analiza el estatus del tablero para verificar si
+    # el jugador que utiliza las 'O's o las 'X's ha ganado el juego.
+
+5:
+    # La función dibuja el movimiento de la máquina y actualiza el tablero.
+
+Guía: 
+La maquina (por ejemplo, el programa) jugará utilizando las 'X's.
+El usuario (por ejemplo, tu) jugarás utilizando las 'O's.
+El primer movimiento es de la maquina: siempre coloca una 'X' en el centro del tablero.
+Todos los cuadros están numerados comenzando con el 1 .
+El usuario ingresa su movimiento introduciendo el número de cuadro elegido. El número debe de ser valido, por ejemplo un valor entero mayor que 0 y menor que 10, y no puede ser un cuadro que ya esté ocupado.
+El programa verifica si el juego ha terminado. Existen cuatro posibles veredictos: el juego continua, el juego termina en empate, tu ganas, o la maquina gana.
+La maquina responde con su movimiento y se verifica el estado del juego.
+No se debe implementar algún tipo de inteligencia artificial, la maquina elegirá un cuadro de manera aleatoria, eso es suficiente para este juego.
